@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&family=Sevillana&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+/* header section css start  */
+
+header{
+    background-image: url("./image/banner/banner1.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 10px;
+}
+
+.textarea{
+    width: 500px;
+    margin-right: 40px;
+    margin-top: 60px;   
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    flex-direction: column;   
+ 
+}
+
+.textarea .h1tag{
+    font-size: 53px;
+    text-align: right;
+    
+}
+
+.Ntext{
+    font-size: 15px;
+    color: rgb(92, 87, 87);
+    text-align: right;
+    width: 400px;  
+    margin-top: 20px;
+}
+
+.CBTN{
+    width: 120px;
+    height:50px ;
+    background: #f07320;
+    color: azure;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+/* header section css end  */
+/* main css start  */
+
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 30px;
+}
+
+main .imgaREa img{
+    width: 450px;
+}
+
+.imgtesxt{
+   
+    width: 400px;
+  
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+.imgtesxt h2{
+    font-size: 32px;
+}
+
+.imgtesxt p{
+    font-size: 15px;
+    color: rgb(68, 64, 64);
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+
+.details{
+
+    margin-top: 20px;
+
+}
+
+.details i{
+    color: #2ecc71;
+    font-size: 14px;
+    margin-right: 5px;
+    
+}
+
+.details div{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 10px;    
+
+}
+
+.details span{
+    font-size: 15px;
+    color: rgb(71, 65, 65);
+}
+/* main css end  */
+
+
+/* servise section start  */
+
+.servises{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+     
+}
+
+.Stag{
+    font-size: 30px;
+     
+}
+
+.Sboxdiv{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   gap: 20px;
+}
+
+.Sbox{
+    background: rgb(255, 255, 255);
+    width: 300px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgb(107, 102, 102);
+
+}
+.Sbox p{
+
+    margin-top: 10px;
+    
+
+}
+/* servise section end  */
+
+/* my plan css start  */
+.myPlan{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+
+.title{
+    font-size: 40px;
+    
+}
+
+.boxdiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.box{
+     
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box img{
+    width: 60px;
+}
+
+.box div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.box div h3{
+    font-size: 26px;
+    margin-top: 10px;
+    
+}
+
+.box div span{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+    color: rgb(109, 106, 103);
+}
+
+.imgboxdiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.imgbox{
+    width: 850px;
+    height: 220px;
+    border-radius: 5px;
+    background: url(./image/watch.png);
+    background-size: cover;
+    position: relative;
+}
+
+.imgbox img{
+    width: 100%;
+    height: 100%;
+}
+
+.opertext{
+    position: absolute;
+    top: 20%;
+    left: 50px;
+}
+
+.opertext h2{
+
+    color: aliceblue;
+    font-size: 35px;
+
+}
+
+.opertext button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #d35400;
+    font-weight: bolder;
+}
+
+/* my plan css end   */
+
+/* footer css section start  */
+
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #000;
+    padding: 100px;
+}
+
+footer .Fstdiv{
+    width: 400px;
+   
+
+}
+
+.Fstdiv .ctextall .ctitle{
+    color: aliceblue;
+    font-size: 35px;
+}
+
+.Fstdiv .ctextall .Ctext{
+    font-size: 15px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+.Fstdiv .ctextall .Cemail{
+    color: azure;
+    margin-top: 10px;
+
+}
+
+.Fstdiv .ctextall .Cphone{
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+.Fstdiv .icondiv{
+    margin-top: 15px;
+
+}
+
+.Fstdiv .icondiv img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+ 
+
+.Snddiv h1{
+    color: antiquewhite;
+}
+
+.Snddiv input{
+    width: 230px;
+    height: 40px;
+    background: #000;
+    padding: 0px 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.Snddiv button{
+    width: 120px;
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+    color: #f07320;
+    font-weight: bolder;
+}
+
+/* footer css section end */
